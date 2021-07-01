@@ -1,0 +1,24 @@
+{
+  "name": "sass-playground",
+  "version": "1.0.0",
+  "description": "Sass playground",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./src/index.scss ./dist/index.css",
+    "build": "sass ./src/index.scss ./dist/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avine/sass-playground.git"
+  },
+  "author": "Stéphane Francel <stephane.francel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avine/sass-playground/issues"
+  },
+  "homepage": "https://github.com/avine/sass-playground#readme",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  }
+}
